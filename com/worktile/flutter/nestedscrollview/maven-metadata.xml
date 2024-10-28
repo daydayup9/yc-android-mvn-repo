@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.worktile.flutter</groupId>
+  <artifactId>nestedscrollview</artifactId>
+  <versioning>
+    <latest>1.0.0-SNAPSHOT</latest>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20230114094550</lastUpdated>
+  </versioning>
+</metadata>

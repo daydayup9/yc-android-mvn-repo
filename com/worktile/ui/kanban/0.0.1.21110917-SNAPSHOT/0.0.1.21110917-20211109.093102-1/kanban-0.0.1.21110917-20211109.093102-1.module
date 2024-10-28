@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.worktile.ui",
+    "module": "kanban",
+    "version": "0.0.1.21110917-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "jpvu753uqrclthgvgfxtmdtunq"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "kanban-0.0.1.21110917-SNAPSHOT.aar",
+          "url": "kanban-0.0.1.21110917-20211109.093102-1.aar",
+          "size": 44273,
+          "sha512": "0e25eed2b3868f9376642a56537a8957d730349758edc5d583110e8cccd4d8a33bcf249c4fecf09712b7261ef8a6cf491d4a8c35cf3fb34e4ed31ca276213542",
+          "sha256": "884d7c251a159d1f071af97310bc3e7c8679b6e0c9aecc91e9bf44c3dcc3ea96",
+          "sha1": "4907449379ce12b9b387da7e0a3a13346c73cb8a",
+          "md5": "0265d235dc70c0eeec57b6a622552146"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager2",
+          "module": "viewpager2",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kanban-0.0.1.21110917-SNAPSHOT.aar",
+          "url": "kanban-0.0.1.21110917-20211109.093102-1.aar",
+          "size": 44273,
+          "sha512": "0e25eed2b3868f9376642a56537a8957d730349758edc5d583110e8cccd4d8a33bcf249c4fecf09712b7261ef8a6cf491d4a8c35cf3fb34e4ed31ca276213542",
+          "sha256": "884d7c251a159d1f071af97310bc3e7c8679b6e0c9aecc91e9bf44c3dcc3ea96",
+          "sha1": "4907449379ce12b9b387da7e0a3a13346c73cb8a",
+          "md5": "0265d235dc70c0eeec57b6a622552146"
+        }
+      ]
+    }
+  ]
+}

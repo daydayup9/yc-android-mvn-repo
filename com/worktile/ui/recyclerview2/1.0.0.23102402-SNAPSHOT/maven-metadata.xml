@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.worktile.ui</groupId>
+  <artifactId>recyclerview2</artifactId>
+  <version>1.0.0.23102402-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20231023.185847</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20231023185847</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0.23102402-20231023.185847-1</value>
+        <updated>20231023185847</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.0.0.23102402-20231023.185847-1</value>
+        <updated>20231023185847</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.0.0.23102402-20231023.185847-1</value>
+        <updated>20231023185847</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.0.0.23102402-20231023.185847-1</value>
+        <updated>20231023185847</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

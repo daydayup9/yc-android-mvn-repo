@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.worktile.json",
+    "module": "json-dsl",
+    "version": "0.5.0.24012818-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "json-dsl-0.5.0.24012818-SNAPSHOT.jar",
+          "url": "json-dsl-0.5.0.24012818-SNAPSHOT.jar",
+          "size": 41362,
+          "sha512": "1565e00ed8a66ad7adab10bb429c62df7db096b5a439b103f25ccae6b297953e09f8b8cb86caab03d37a1630ebe27237e8479d66d4c279e2601fd964799bcfac",
+          "sha256": "bdbc041e2a879164f41ee2cd79ad46d3abcf4ddf35e1857d27fd207781d9e346",
+          "sha1": "0cf1f87e6beb14454f79ea05d0074c1da34fdff7",
+          "md5": "96a6e4cb991d0fd1ba93a598c3c0cbec"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "json-dsl-0.5.0.24012818-SNAPSHOT.jar",
+          "url": "json-dsl-0.5.0.24012818-SNAPSHOT.jar",
+          "size": 41362,
+          "sha512": "1565e00ed8a66ad7adab10bb429c62df7db096b5a439b103f25ccae6b297953e09f8b8cb86caab03d37a1630ebe27237e8479d66d4c279e2601fd964799bcfac",
+          "sha256": "bdbc041e2a879164f41ee2cd79ad46d3abcf4ddf35e1857d27fd207781d9e346",
+          "sha1": "0cf1f87e6beb14454f79ea05d0074c1da34fdff7",
+          "md5": "96a6e4cb991d0fd1ba93a598c3c0cbec"
+        }
+      ]
+    }
+  ]
+}

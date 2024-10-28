@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.worktile.ui",
+    "module": "recyclerview",
+    "version": "0.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "wftcbd7dyzgavp7eiw7tpr3ape"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.worktile",
+          "module": "common",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.worktile.ui",
+          "module": "widgets",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "recyclerview-0.9.0.aar",
+          "url": "recyclerview-0.9.0.aar",
+          "size": 101936,
+          "sha512": "d851a41a94c892c03cabac901e5b63454dcabc96126b8f090fb2447a25282bf827f57861a2af98f89ba3c346b9707925ed0bf80ad844dafe0f3ce137927d04c1",
+          "sha256": "f3e8f3f95ca8cff893d124c98182b4385c33ca2206a7ca7ea7eea0a651f773b3",
+          "sha1": "55ff3275d4e2f464dcfc5c9c99d3d6b58e8071be",
+          "md5": "abc73a94f4c836166afad14771271cda"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.worktile",
+          "module": "common",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.worktile.ui",
+          "module": "widgets",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "recyclerview-0.9.0.aar",
+          "url": "recyclerview-0.9.0.aar",
+          "size": 101936,
+          "sha512": "d851a41a94c892c03cabac901e5b63454dcabc96126b8f090fb2447a25282bf827f57861a2af98f89ba3c346b9707925ed0bf80ad844dafe0f3ce137927d04c1",
+          "sha256": "f3e8f3f95ca8cff893d124c98182b4385c33ca2206a7ca7ea7eea0a651f773b3",
+          "sha1": "55ff3275d4e2f464dcfc5c9c99d3d6b58e8071be",
+          "md5": "abc73a94f4c836166afad14771271cda"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.worktile.ui</groupId>
+  <artifactId>kanban</artifactId>
+  <versioning>
+    <latest>0.0.1.22012702-SNAPSHOT</latest>
+    <versions>
+      <version>0.0.1.21042117-SNAPSHOT</version>
+      <version>0.0.1.21042300-SNAPSHOT</version>
+      <version>0.0.1.21110917-SNAPSHOT</version>
+      <version>0.0.1.21110918-SNAPSHOT</version>
+      <version>0.0.1.22012615-SNAPSHOT</version>
+      <version>0.0.1.22012702-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20220217111143</lastUpdated>
+  </versioning>
+</metadata>

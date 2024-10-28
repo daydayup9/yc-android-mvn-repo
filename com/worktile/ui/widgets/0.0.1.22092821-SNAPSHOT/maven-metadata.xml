@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.worktile.ui</groupId>
+  <artifactId>widgets</artifactId>
+  <version>0.0.1.22092821-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20220928.134448</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20220928134448</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.0.1.22092821-20220928.134448-1</value>
+        <updated>20220928134448</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>0.0.1.22092821-20220928.134448-1</value>
+        <updated>20220928134448</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.1.22092821-20220928.134448-1</value>
+        <updated>20220928134448</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.0.1.22092821-20220928.134448-1</value>
+        <updated>20220928134448</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

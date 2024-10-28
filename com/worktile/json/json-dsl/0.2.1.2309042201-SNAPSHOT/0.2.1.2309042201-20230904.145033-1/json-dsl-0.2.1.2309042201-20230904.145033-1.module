@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.worktile.json",
+    "module": "json-dsl",
+    "version": "0.2.1.2309042201-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "json-dsl-0.2.1.2309042201-SNAPSHOT.jar",
+          "url": "json-dsl-0.2.1.2309042201-SNAPSHOT.jar",
+          "size": 40399,
+          "sha512": "2f60b7518c37a1396a961ef7c2bb83ea681f926d8ad8f43a144efd488093f4182eda1132626c539b094ff141f7d1d71c939269b8c81bd7527481d64c03f03ca6",
+          "sha256": "5b9c0dfa9d64663e55978718c7b16e359d1266cc6d6b27c4faf64c7bff8955d4",
+          "sha1": "4c81e842c0c9f6ca4cf189b67b35bacb399b8a1b",
+          "md5": "62c3cf24c575329ace4160cbe2fb1f13"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "json-dsl-0.2.1.2309042201-SNAPSHOT.jar",
+          "url": "json-dsl-0.2.1.2309042201-SNAPSHOT.jar",
+          "size": 40399,
+          "sha512": "2f60b7518c37a1396a961ef7c2bb83ea681f926d8ad8f43a144efd488093f4182eda1132626c539b094ff141f7d1d71c939269b8c81bd7527481d64c03f03ca6",
+          "sha256": "5b9c0dfa9d64663e55978718c7b16e359d1266cc6d6b27c4faf64c7bff8955d4",
+          "sha1": "4c81e842c0c9f6ca4cf189b67b35bacb399b8a1b",
+          "md5": "62c3cf24c575329ace4160cbe2fb1f13"
+        }
+      ]
+    }
+  ]
+}

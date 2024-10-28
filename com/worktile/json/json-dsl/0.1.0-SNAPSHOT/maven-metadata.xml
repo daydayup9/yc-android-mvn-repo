@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.worktile.json</groupId>
+  <artifactId>json-dsl</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210114.040021</timestamp>
+      <buildNumber>5</buildNumber>
+    </snapshot>
+    <lastUpdated>20210114040021</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.1.0-20210114.040021-5</value>
+        <updated>20210114040021</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>0.1.0-20210114.040021-5</value>
+        <updated>20210114040021</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.0-20210114.040021-5</value>
+        <updated>20210114040021</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.1.0-20210114.040021-5</value>
+        <updated>20210114040021</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.worktile.flutter",
+    "module": "nestedflutterview",
+    "version": "1.0.0.23020111-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nestedflutterview-1.0.0.23020111-SNAPSHOT.aar",
+          "url": "nestedflutterview-1.0.0.23020111-SNAPSHOT.aar",
+          "size": 11184,
+          "sha512": "02c9e3029ca1326887a226e25efae9e11eebcae5f4f24d168862c7a30c26c6a084adab5949b512bff66da3c79a32d80c3678fd750d4a1dfefda304ca19af4bef",
+          "sha256": "477d1dd32192e285de5b3ed511c271a245b31d0fa9c5ddb59b8896eef31b40ec",
+          "sha1": "baea84f60b5830399ce9888cf342268062833daf",
+          "md5": "b32334cb2c75508e695608f4b30e8ba5"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nestedflutterview-1.0.0.23020111-SNAPSHOT.aar",
+          "url": "nestedflutterview-1.0.0.23020111-SNAPSHOT.aar",
+          "size": 11184,
+          "sha512": "02c9e3029ca1326887a226e25efae9e11eebcae5f4f24d168862c7a30c26c6a084adab5949b512bff66da3c79a32d80c3678fd750d4a1dfefda304ca19af4bef",
+          "sha256": "477d1dd32192e285de5b3ed511c271a245b31d0fa9c5ddb59b8896eef31b40ec",
+          "sha1": "baea84f60b5830399ce9888cf342268062833daf",
+          "md5": "b32334cb2c75508e695608f4b30e8ba5"
+        }
+      ]
+    }
+  ]
+}

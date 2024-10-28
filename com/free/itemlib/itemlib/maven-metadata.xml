@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.free.itemlib</groupId>
+  <artifactId>itemlib</artifactId>
+  <versioning>
+    <latest>default</latest>
+    <release>default</release>
+    <versions>
+      <version>default</version>
+    </versions>
+    <lastUpdated>20200229135129</lastUpdated>
+  </versioning>
+</metadata>

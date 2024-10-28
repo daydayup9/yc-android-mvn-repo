@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.worktile.flutter</groupId>
+  <artifactId>nestedflutterview</artifactId>
+  <versioning>
+    <latest>1.0.0.2301151702-SNAPSHOT</latest>
+    <release>1.0.0</release>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.0</version>
+      <version>1.0.0.23011517-SNAPSHOT</version>
+      <version>1.0.0.23011617-SNAPSHOT</version>
+      <version>1.0.0.23011619-SNAPSHOT</version>
+      <version>1.0.0.23011620-SNAPSHOT</version>
+      <version>1.0.0.23020111-SNAPSHOT</version>
+      <version>1.0.0.2301151701-SNAPSHOT</version>
+      <version>1.0.0.2301151702-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20230201040532</lastUpdated>
+  </versioning>
+</metadata>

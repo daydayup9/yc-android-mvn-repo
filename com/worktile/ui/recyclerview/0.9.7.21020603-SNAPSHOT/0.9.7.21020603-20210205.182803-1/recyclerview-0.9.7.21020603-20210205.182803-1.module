@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.worktile.ui",
+    "module": "recyclerview",
+    "version": "0.9.7.21020603-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "wp7uyj4jvvccxg7z4ohmscnkhm"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.worktile",
+          "module": "common",
+          "version": {
+            "requires": "0.0.9.21012116-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "recyclerview-0.9.7.21020603-SNAPSHOT.aar",
+          "url": "recyclerview-0.9.7.21020603-20210205.182803-1.aar",
+          "size": 136069,
+          "sha512": "c7424eff41d83e626c1aa3dd758bc5f23e547c06642c4277feb377209e02fbe4fab44c7f2d6b01821ba6fad4437e7a93f17b5586107d88fe0e1a4ed9999547d0",
+          "sha256": "e24b9bab7e9a7f0f8b6c34dab7e248ae9d669c34972f822fa5beb8678963db5a",
+          "sha1": "3812895e10f34e1b552ce10f6554eca394dccd52",
+          "md5": "a5f9f951f5bc9e9e63ca3b61cde01b3e"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.worktile.ui",
+          "module": "widgets",
+          "version": {
+            "requires": "0.0.1"
+          }
+        },
+        {
+          "group": "com.worktile",
+          "module": "common",
+          "version": {
+            "requires": "0.0.9.21012116-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.3.9"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "recyclerview-0.9.7.21020603-SNAPSHOT.aar",
+          "url": "recyclerview-0.9.7.21020603-20210205.182803-1.aar",
+          "size": 136069,
+          "sha512": "c7424eff41d83e626c1aa3dd758bc5f23e547c06642c4277feb377209e02fbe4fab44c7f2d6b01821ba6fad4437e7a93f17b5586107d88fe0e1a4ed9999547d0",
+          "sha256": "e24b9bab7e9a7f0f8b6c34dab7e248ae9d669c34972f822fa5beb8678963db5a",
+          "sha1": "3812895e10f34e1b552ce10f6554eca394dccd52",
+          "md5": "a5f9f951f5bc9e9e63ca3b61cde01b3e"
+        }
+      ]
+    }
+  ]
+}

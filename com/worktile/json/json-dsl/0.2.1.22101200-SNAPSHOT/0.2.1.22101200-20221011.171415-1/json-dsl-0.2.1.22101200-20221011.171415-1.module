@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.worktile.json",
+    "module": "json-dsl",
+    "version": "0.2.1.22101200-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "hjlclxzjavd5rjjuv2emihz4py"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20220924"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "json-dsl-0.2.1.22101200-SNAPSHOT.jar",
+          "url": "json-dsl-0.2.1.22101200-20221011.171415-1.jar",
+          "size": 40129,
+          "sha512": "ad798a6401c2d9da3476c14169b7db61b64bebfef7fd5692c0ef988e98a25663f1597d7b5b8ab6b96bb7a81b72052e8cd29efb85277b49bb287a6ded0629d3de",
+          "sha256": "298e5c3a22d8f3cd747acc2d88ae0c0eb90640aa086eeb38d2ef595d63d60104",
+          "sha1": "054976c37075778de60349c8d827d45c6151ab70",
+          "md5": "e4933ce917d8cacb10161541a7b9fe0a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20220924"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "json-dsl-0.2.1.22101200-SNAPSHOT.jar",
+          "url": "json-dsl-0.2.1.22101200-20221011.171415-1.jar",
+          "size": 40129,
+          "sha512": "ad798a6401c2d9da3476c14169b7db61b64bebfef7fd5692c0ef988e98a25663f1597d7b5b8ab6b96bb7a81b72052e8cd29efb85277b49bb287a6ded0629d3de",
+          "sha256": "298e5c3a22d8f3cd747acc2d88ae0c0eb90640aa086eeb38d2ef595d63d60104",
+          "sha1": "054976c37075778de60349c8d827d45c6151ab70",
+          "md5": "e4933ce917d8cacb10161541a7b9fe0a"
+        }
+      ]
+    }
+  ]
+}

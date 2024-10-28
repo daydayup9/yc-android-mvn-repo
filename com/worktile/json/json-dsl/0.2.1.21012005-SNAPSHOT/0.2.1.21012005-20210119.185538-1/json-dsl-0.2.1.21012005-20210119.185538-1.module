@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.worktile.json",
+    "module": "json-dsl",
+    "version": "0.2.1.21012005-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "7nwntnfuhnhjtb5xzk7n7zdpum"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "json-dsl-0.2.1.21012005-SNAPSHOT.aar",
+          "url": "json-dsl-0.2.1.21012005-20210119.185538-1.aar",
+          "size": 42173,
+          "sha512": "5e0d4d9c53d65fd77c8a9964e1ac82b4261f392c6cd5ed69b7745182240c6376a9f6ffe08a33bb920bd3a5022501f2be50900d60b01552429b161c9ed4066b66",
+          "sha256": "f0f448dff69e4f5b4de74ae86c34019b178c87a7982df59fe9d6fa0eb66aac9b",
+          "sha1": "2ef7991bda7a39c2e334b86adb4a16fd2f091b92",
+          "md5": "161a32b144db554582f955a7b83b055e"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "json-dsl-0.2.1.21012005-SNAPSHOT.aar",
+          "url": "json-dsl-0.2.1.21012005-20210119.185538-1.aar",
+          "size": 42173,
+          "sha512": "5e0d4d9c53d65fd77c8a9964e1ac82b4261f392c6cd5ed69b7745182240c6376a9f6ffe08a33bb920bd3a5022501f2be50900d60b01552429b161c9ed4066b66",
+          "sha256": "f0f448dff69e4f5b4de74ae86c34019b178c87a7982df59fe9d6fa0eb66aac9b",
+          "sha1": "2ef7991bda7a39c2e334b86adb4a16fd2f091b92",
+          "md5": "161a32b144db554582f955a7b83b055e"
+        }
+      ]
+    }
+  ]
+}

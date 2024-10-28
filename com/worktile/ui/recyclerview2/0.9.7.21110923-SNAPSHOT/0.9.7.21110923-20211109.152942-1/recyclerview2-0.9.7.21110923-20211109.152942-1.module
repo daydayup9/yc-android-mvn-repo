@@ -1,0 +1,161 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.worktile.ui",
+    "module": "recyclerview2",
+    "version": "0.9.7.21110923-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "l3qbnmvm3nhlle6cvbbd54kzvi"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.worktile",
+          "module": "common",
+          "version": {
+            "requires": "0.0.9.21082302-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "recyclerview2-0.9.7.21110923-SNAPSHOT.aar",
+          "url": "recyclerview2-0.9.7.21110923-20211109.152942-1.aar",
+          "size": 127480,
+          "sha512": "3070d72e5a668d45d7d3d06f1be049d8aac310bf5d56e8fbe22ef2b546fa1ee1f0f2d66866a8c9e1a3b6698858bd4165b9651e484013b318bc3928fa67287c07",
+          "sha256": "831409d25411fdbc06a8358d14a71f2c965a41e7051e9cf2070147a8462e2104",
+          "sha1": "7ce416793f58d57bb5cd907a30c106496434d691",
+          "md5": "046178bba5379e75c2a11bfe11a4a337"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.worktile.ui",
+          "module": "widgets",
+          "version": {
+            "requires": "0.0.1.21062800-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.worktile",
+          "module": "common",
+          "version": {
+            "requires": "0.0.9.21082302-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "4.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.4.0-rc01"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "recyclerview2-0.9.7.21110923-SNAPSHOT.aar",
+          "url": "recyclerview2-0.9.7.21110923-20211109.152942-1.aar",
+          "size": 127480,
+          "sha512": "3070d72e5a668d45d7d3d06f1be049d8aac310bf5d56e8fbe22ef2b546fa1ee1f0f2d66866a8c9e1a3b6698858bd4165b9651e484013b318bc3928fa67287c07",
+          "sha256": "831409d25411fdbc06a8358d14a71f2c965a41e7051e9cf2070147a8462e2104",
+          "sha1": "7ce416793f58d57bb5cd907a30c106496434d691",
+          "md5": "046178bba5379e75c2a11bfe11a4a337"
+        }
+      ]
+    }
+  ]
+}

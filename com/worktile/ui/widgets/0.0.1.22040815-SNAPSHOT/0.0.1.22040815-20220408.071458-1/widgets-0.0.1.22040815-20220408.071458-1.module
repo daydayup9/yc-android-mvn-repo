@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.worktile.ui",
+    "module": "widgets",
+    "version": "0.0.1.22040815-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.1.1",
+      "buildId": "nhekhuf73nb3lcrxz57a4eyyxa"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.worktile",
+          "module": "common",
+          "version": {
+            "requires": "0.0.9.22011118-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "widgets-0.0.1.22040815-SNAPSHOT.aar",
+          "url": "widgets-0.0.1.22040815-20220408.071458-1.aar",
+          "size": 28131,
+          "sha512": "1f27c0ee7ba22245ae870503c1acfb074c2be1e20cad8ae489d776aaffbf26af515886da75f789eaa567e27a97b256e92904df420d3497aaa42a730f006b1b2e",
+          "sha256": "a9d1a8c506498ecacccd08321fdf49a7064e254ed8d0b271a1f000ceffa20ea6",
+          "sha1": "aee4720fa35464310640851d0f44c2db8bb5aa5a",
+          "md5": "08237d00484c7d0e8782c94fd8749f4a"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.worktile",
+          "module": "common",
+          "version": {
+            "requires": "0.0.9.22011118-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.5.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "widgets-0.0.1.22040815-SNAPSHOT.aar",
+          "url": "widgets-0.0.1.22040815-20220408.071458-1.aar",
+          "size": 28131,
+          "sha512": "1f27c0ee7ba22245ae870503c1acfb074c2be1e20cad8ae489d776aaffbf26af515886da75f789eaa567e27a97b256e92904df420d3497aaa42a730f006b1b2e",
+          "sha256": "a9d1a8c506498ecacccd08321fdf49a7064e254ed8d0b271a1f000ceffa20ea6",
+          "sha1": "aee4720fa35464310640851d0f44c2db8bb5aa5a",
+          "md5": "08237d00484c7d0e8782c94fd8749f4a"
+        }
+      ]
+    }
+  ]
+}

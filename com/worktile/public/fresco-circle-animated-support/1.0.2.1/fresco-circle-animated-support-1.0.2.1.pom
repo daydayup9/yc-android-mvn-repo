@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.worktile.public</groupId>
+  <artifactId>fresco-circle-animated-support</artifactId>
+  <version>1.0.2.1</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>25.3.1</version>
+      <exclusions/>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.fresco</groupId>
+      <artifactId>fresco</artifactId>
+      <version>1.5.0</version>
+      <exclusions/>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.fresco</groupId>
+      <artifactId>animated-gif</artifactId>
+      <version>1.5.0</version>
+      <exclusions/>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.fresco</groupId>
+      <artifactId>imagepipeline-okhttp3</artifactId>
+      <version>1.5.0</version>
+      <exclusions/>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.findbugs</groupId>
+      <artifactId>jsr305</artifactId>
+      <version>3.0.1</version>
+      <exclusions/>
+    </dependency>
+  </dependencies>
+</project>
